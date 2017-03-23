@@ -1,4 +1,8 @@
 
+
+library(rstan)
+library(coda)
+
 d <- read.csv(file="data7a.csv")
 head(d)
 
